@@ -1,0 +1,119 @@
+body
+{
+    width: 100%;                    /* Largeur */
+    margin: 0;                      /* Marge externe */ 
+    padding: 0;                     /* Marge interne */
+    color: #32322C;               /* Coleur texte */
+    text-align: justify;            /* Alignement du texte */
+    background-color: #F2F2F2;    /* Couleur du fond */
+}
+
+header
+{
+    width: 98%;
+    /* La propriété ci-dessous permet d'indiquer que les éléments contenus 
+    dans ce bloc seront côte à côte */
+    display: flex;
+    /* Espacement entre les blocs internes à celui-ci */
+    justify-content: space-between;
+    /* Le padding est compté à droite et à gauche, il vaut donc au total
+    2% ! (idem en cas de margin) */
+    padding: 1%; 
+    /* Police choisie */
+    font-family: "Roboto";
+    background-color: #32322C;
+}
+
+h1 
+{
+    font-family: "Roboto";
+    color: #2176FF;
+}
+
+p 
+{
+    font-family: "open sans";
+}
+
+header ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 10vw;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-self: center;
+}
+
+header a 
+{
+    text-decoration: none;
+    color: #9d9d90;
+    /* Transition css3 */
+    transition: color 1s;
+}
+
+/* Pour les liens mais au survol avec le curseur (d'où hover) */
+header a:hover
+{
+    transition: color 1s;
+    color: #2176FF;
+}
+
+section
+{
+    /* On peut spécifier une marge pour un côté en particulier 
+    Existe aussi avec top et bottom */
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+footer p
+{
+    padding: 0;
+    margin: 0;
+    margin-top: 1em;
+    margin-left: 0.5em;
+}
+
+.logo 
+{
+    font-family: "Permanent marker";
+    font-size: 2em;
+}
+
+.paraph
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sous-paraph
+{
+    width: 45%;
+}
+
+.images-content
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Toutes les images dans un bloc ayant pour classe "images-content" */
+.images-content img
+{
+    padding-bottom: 1em;
+}
+
+/* Contenu principal de la page web */
+.main
+{
+    width: 80%;
+    /* Permet de mettre une marge externe qui centre le bloc */
+    margin: auto;
+    padding: 0.5em;
+    background-color: #fff;
+}

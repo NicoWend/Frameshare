@@ -1,12 +1,102 @@
-<!DOCTYPE html>
+<!-- Les deux balises en dessous servent à indiquer que le contenu est du html -->
+<!DOCTYPE html> 
 <html lang="fr">
+<!-- Tout ce qui est informations au niveau des liens se place dans head -->
 <head>
     <meta charset="UTF-8">
+    <!-- Pour l'instant on s'en branle de la ligne du dessous -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Lien avec la feuille de style (css) -->
     <link rel="stylesheet" href="style/style.css">
+
+    <!-- Polices -->
+    <!-- ROBOTO -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- OPEN SANS -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- PERMANENT MARKER -->
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <!-- Fin des polices -->
+
+    <!-- Titre de l'onglet -->
     <title>Frameshare - page d'accueil</title>
 </head>
 <body>
-    
+    <!-- Ici vient se placer le header (haut de page) -->
+    <header>
+        <div class="logo-container">
+            <a href="#"><span class="logo">FrameShare</span></a>
+        </div>
+
+        <!-- Ci-dessous une liste -->
+        <ul>
+            <!-- Ci-dessous un élément (avec lien) d'une liste -->
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Builds</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </header>
+    <!-- Fin du header ici -->
+
+    <div class="main">
+    <!-- Première section du site web, le synopsis de warframe -->
+        <section class="presentation-container">
+            <h1>Synopsis de Warframe</h1>
+            <!-- Un bloc -->
+            <div class="paraph">
+                <!-- Un sous-bloc -->
+                <div class="sous-paraph">
+                    <p>
+                        Warframe est un jeu de tir à la troisième personne en ligne de type 
+                        free to play développé par Digital Extremes et disponible sur 
+                        Windows, PlayStation 4, Xbox One et Nintendo Switch.
+                        Les joueurs incarnent les Tennos, des humains ayant des pouvoirs 
+                        combattant à l'aide d'armures nommées Warframes. Ils œuvrent pour 
+                        le maintien de l'équilibre dans le système solaire, réduisant les 
+                        rangs des factions Grineers, Corpus et tentant d'éradiquer 
+                        une épidémie mutante nommée Infestés.
+                    </p>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius odio urna, eget vulputate orci mollis eu. Donec in pretium massa, quis consectetur arcu. Vivamus rutrum vestibulum lectus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec porta tincidunt blandit. Duis interdum ac augue at mattis. Nunc tempus nec orci vel fermentum.
+                    </p>
+
+                    <p>
+                        Maecenas id velit vitae turpis venenatis bibendum dignissim vulputate arcu. Etiam sit amet enim condimentum magna commodo finibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas vitae mauris et tortor condimentum congue quis vitae sapien. Phasellus eros arcu, gravida nec massa at, sollicitudin convallis turpis. Nullam sodales leo eget lorem rutrum vulputate. Mauris ornare vestibulum tellus, ac rhoncus est congue ut. Quisque tempus mi quis tortor faucibus sodales. Praesent et gravida dolor.
+                    </p>
+                </div>
+                <!-- Fin du sous-bloc -->
+
+                <!-- Un autre sous-bloc -->
+                <div class="sous-paraph">
+                    <p>
+                        Suspendisse potenti. Nulla at semper massa, at interdum lorem. Morbi at convallis orci. Phasellus euismod et lacus a tincidunt. Praesent efficitur, elit at egestas tincidunt, ligula diam tempor mauris, a vehicula justo ex nec ex. Vivamus ut magna ultrices, bibendum nisl id, sagittis magna. Ut eleifend ipsum vel purus egestas viverra. Nunc malesuada augue eget tristique vulputate. Nunc id dolor non neque laoreet semper sed mattis lacus.
+                    </p>
+
+                    <p>
+                        Mauris non bibendum lorem, et posuere justo. Mauris condimentum erat sit amet suscipit hendrerit. Quisque et fringilla erat, nec ornare ipsum. Integer porttitor purus nunc, vel porta velit mollis nec. Quisque eget est nisi. Fusce interdum arcu purus, non vulputate lorem bibendum nec. Ut eu viverra felis. Donec ut orci sit amet tellus tincidunt tempus. Etiam ullamcorper sollicitudin ultrices. Pellentesque vel suscipit nunc, ac convallis dolor. Integer vel rhoncus mauris, a fringilla neque. Pellentesque molestie accumsan scelerisque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam orci lectus, luctus at metus.
+                    </p>
+                </div>
+                <!-- Fin de l'autre sous-bloc -->
+            </div>
+            <!-- Fin du bloc -->
+        </section>
+
+        <!-- Deuxième section, on place quelques images du jeu -->
+        <section class="images-container">
+            <h1>Images de Warframe</h1>
+            <p class="images-content"> 
+                <img width="400px" src="img/warframe-1.jpg" />
+                <img width="400px" src="img/warframe-2.jpg" />
+                <img width="400px" src="img/warframe-3.jpg" />
+                <img width="400px" src="img/warframe-4.jpg" />
+            </p>
+        </section>
+    </div>
+
+    <!-- Footer du site (Pied de page) -->
+    <footer>
+        <p>Nicolas WENDLING - © 2020 FrameShare</p>
+    </footer>
 </body>
 </html>
