@@ -3,6 +3,9 @@ Ce site n'est pas réalisable en utilisatn uniquement la méthode statique.<br>
 Cependant, il est nécéssaire pour la suite de maîtriser ces points pour le site
 final.
 
+> Tu peux essayer de reproduire cette page web, ça peut être un bon exercice.
+> Utilise le code source (index.html) pour voir quelle structuration j'ai utilisé.
+
 ## HTML
 Le HTML (v5 ici) est un langage de structuration (et non de programmation), c'est un 
 langage à balises. 
